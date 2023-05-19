@@ -1,0 +1,63 @@
+.containerItemGame {
+  display: flex;
+  position: relative;
+  border-radius: 10px;
+  width: 200px;
+  height: 249px;
+  resize: both;
+  margin: 10px;
+}
+
+.itemBackgroundLoL {
+  border-radius: 10px;
+  background-image: url("../../assets/images/backgroundlol.jpg");
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex: content;
+  flex-direction: row;
+}
+
+.itemBackgroundLoL:hover {
+  border-radius: 10px;
+  background-image: url("../../assets/images/backgroundlol.jpg");
+  background-color: #ffffff;
+  border-width: 3px;
+  border-color: #ffffff;
+  border-style: solid;
+}
+
+.itemBackgroundLoL img {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+}
+
+.itemBackgroundTFT {
+    border-radius: 10px;
+    background-image: url("../../assets/images/lol-tft.jpg");
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: content;
+    flex-direction: row;
+  }
+  
+  .itemBackgroundTFT:hover {
+    border-radius: 10px;
+    background-image: url("../../assets/images/lol-tft.jpg");
+    background-color: #ffffff;
+    border-width: 3px;
+    border-color: #ffffff;
+    border-style: solid;
+  }
+  
+  .itemBackgroundTFT img {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+  }
